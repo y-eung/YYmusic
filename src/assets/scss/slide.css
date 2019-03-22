@@ -1,0 +1,15 @@
+.slide-left-enter,
+.slide-right-leave-active {
+  opacity: 1;
+  -webkit-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+  transition: all .1s ;
+}
+
+.slide-left-leave-active,
+.slide-right-enter {
+  opacity: 1;
+  -webkit-transform: translate(100%, 0);
+  transition: all 0.1s;
+  transform: translate(100%, 0);
+}
